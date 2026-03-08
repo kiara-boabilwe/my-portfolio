@@ -8,14 +8,14 @@ body {
 
 /* Navbar */
 .navbar {
-  background-color: #d8a7b1; /* muted pink */
+  background-color: #e68e9f; /* elegant rose tone */
 }
 .navbar-brand, .nav-link {
-  color: #fff !important;
+  color: #d2d1d1 !important;
   font-weight: 500;
 }
 .nav-link:hover {
-  color: #ffe6eb !important; /* lighter pink hover */
+  color: #e68e9f !important;
 }
 
 /* Hero / Header */
@@ -71,6 +71,7 @@ footer {
 }
 footer p {
   margin: 0;
+  padding: 10px;
   font-size: 0.9rem;
 }
 
