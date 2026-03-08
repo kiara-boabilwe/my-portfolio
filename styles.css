@@ -39,10 +39,17 @@ h2, h4 {
 }
 
 /* Cards (Projects) */
+
+.projects-section {
+  background-color: #fce4ec;   /* soft pastel pink */
+  padding: 40px;              /* adds space inside the section */
+}
+
 .card {
-  border: none;
-  box-shadow: 0 4px 8px rgba(183, 110, 121, 0.2);
-  transition: transform 0.2s ease;
+   background-color: #fff;     /* keep cards white for contrast */
+  border: 1px solid #f8bbd0;  /* light pink border for detail */
+  padding: 20px;
+  margin: 20px;
 }
 .card:hover {
   transform: translateY(-5px);
@@ -99,14 +106,3 @@ nav a {
   margin-right: 15px;   /* separates each link from the next */
 }
 
-.projects-section {
-  background-color: #fce4ec;   /* soft pastel pink */
-  padding: 40px;              /* adds space inside the section */
-}
-
-.project-card {
-  background-color: #fff;     /* keep cards white for contrast */
-  border: 1px solid #f8bbd0;  /* light pink border for detail */
-  padding: 20px;
-  margin: 20px;
-}
