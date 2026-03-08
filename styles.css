@@ -98,3 +98,15 @@ nav {
 nav a {
   margin-right: 15px;   /* separates each link from the next */
 }
+
+.projects-section {
+  background-color: #fce4ec;   /* soft pastel pink */
+  padding: 40px;              /* adds space inside the section */
+}
+
+.project-card {
+  background-color: #fff;     /* keep cards white for contrast */
+  border: 1px solid #f8bbd0;  /* light pink border for detail */
+  padding: 20px;
+  margin: 20px;
+}
