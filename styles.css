@@ -11,7 +11,7 @@ body {
   background-color: #e68e9f; /* elegant rose tone */
 }
 .navbar-brand, .nav-link {
-  color: #d2d1d1 !important;
+  color: #db9f9f !important;
   font-weight: 500;
 }
 .nav-link:hover {
@@ -20,7 +20,7 @@ body {
 
 /* Hero / Header */
 header {
-  background: linear-gradient(135deg, #f8d7da, #fdf6f6);
+  background: linear-gradient(135deg, #f8d7da, #9d9999);
   color: #4a2c2a;
 }
 header h1 {
@@ -67,7 +67,7 @@ h2, h4 {
 /* Footer */
 footer {
   background-color: #d8a7b1;
-  color: #fff;
+  color: #8d8686;
 }
 footer p {
   margin: 0;
