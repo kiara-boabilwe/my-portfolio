@@ -106,3 +106,7 @@ nav a {
   margin-right: 15px;   /* separates each link from the next */
 }
 
+.navbar-nav {
+  list-style-type: none;
+}
+
