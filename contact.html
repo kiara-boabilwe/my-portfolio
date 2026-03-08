@@ -8,65 +8,79 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">Perfect
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Kiara Boabilwe</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+<a class="nav-link active" href="contact.html">Contact</a></li>            <li class="nav-item">
+        </div>
+      </div>
     </nav>
- <header>
-    <h1>Contact Me</h1>
-    <p>I'd love to hear from you!</p>
-</header>
 
-<main>
-    <section>
-        <h2>Get in Touch</h2>
+    <!-- Header -->
+          </ul>
+    <header class="text-center my-5"> Me</h1>
+      <p class="lead">I'd love to hear
+      <h1>Contact from you!</p>
+    </header>
 
-        <div>
-            <h3>Email</h3>
-            <p><a href="mailto:pinkkiara55@gmail.com">pinkkiara55@gmail.com</a></p>
-        </div>
-
-        <div>
-            <h3>Social Media</h3>
+    <!-- Main Content -->
+      <div class="row mb-5">
+    <main class="container">
+        <div class="col-md-6"> in Touch</h2>
+         
+          <h2>Get <div class="mb-3">Email</h5>
+           
+            <h5> <p><a href="mailto:pinkkiara55@gmail.com">pinkkiara55@gmail.com</a></p>
+          </div>
+         
+            <h5> <div class="mb-3">Social Media</h5>
             <p>
-                <a href="https://github.com/kiara-boabilwe" target="_blank">GitHub</a> | 
-                <a href="https://linkedin.com/in/kiara-boabilwe" target="_blank">LinkedIn</a> |
-            </p>
-        </div>
-
-        <div>
-            <h3>Location</h3>
+              <a href="https://github.com/kiara-boabilwe" target="_blank" class="btn btn-outline-secondary btn-sm me-2">GitHub</a>
+              <a href="https://linkedin.com/in/kiara-boabilwe" target="_blank" class="btn btn-outline-secondary btn-sm">LinkedIn</a>
+           </div>
+          <div class="mb-3">
+            <h5>Location</h5>
             <p>Gaborone, Botswana</p>
+          </div>
         </div>
-    </section>
 
-    <section>
-        <h2>Send Me a Message</h2>
-        <form action="https://formspree.io/f/mvzwgowr" method="POST">
-            <div>
-                <label for="name">Your Name:</label><br>
-                <input type="text" id="name" name="name" required>
+        <div class="col-md-6">
+          <h2>Send Me a Message</h2>
+          <form action="https://formspree.io/f/mvzwgowr" method="POST" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name:</label>
+              <input type="text" id="name" name="name" class="form-control" required>
             </div>
-            <br>
-            <div>
-                <label for="email">Your Email:</label><br>
-                <input type="email" id="email" name="email" required>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email:</label>
+              <input type="email" id="email" name="email" class="form-control" required>
             </div>
-            <br>
-            <div>
-                <label for="message">Your Message:</label><br>
-                <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+            <div class="mb-3"> </p>
+          
+              <label for="message" class="form-label">Your Message:</label>
+              <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
             </div>
-            <br>
-            <button type="submit">Send Message</button>
-        </form>
-        <p><small>Note: To make the form work, sign up for free at <a href="https://formspree.io" target="_blank">Formspree</a> and replace the form action URL with your unique form ID.</small></p>
-    </section>
-</main>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <p class="mt-2"><small>
+            Note: To make the form work, sign up for free at 
+Formspree</a> 
+                       <a href="https://formspree.io" target="_blank"> and replace the form action URL with your unique form ID.
+          </small></p>
+        </div>
+      </div>
+    </main>
 
-<footer>
-    <p>&copy; 2026 Kiara Boabilwe</p>
-</footer>   
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <p>&copy; 2026 Kiara Boabilwe</p>
+    </footer>
+</body>
+</html>

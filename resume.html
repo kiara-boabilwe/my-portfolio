@@ -7,70 +7,91 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
+    <!-- Navigation -->- Styled your skills
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Kiara Boabilwe</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item">Resume</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <header>
-    <h1>My Resume</h1>
-    <p><a href="c:\Users\USER\Downloads\Kiara Boabilwe Resume.docx" download> Download PDF Version</a></p>
-</header>
 
-<main>
-    <section>
+    <!-- Header -->
+    <header class="text-center my-5">
+      <h1>My Resume</h1>
+      <p><a href="resume.pdf" download class="btn btn-primary">Download PDF Version</a></p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Contact Information -->
+      <section class="mb-5">
         <h2>Contact Information</h2>
-        <p>Email: pinkkiara55@gmail.com</p>
+        <p>Email: <a href="mailto:pinkkiara55@gmail.com">pinkkiara55@gmail.com</a></p>
         <p>Phone: (+267) 75104043</p>
         <p>GitHub: <a href="https://github.com/kiara-boabilwe" target="_blank">github.com/kiara-boabilwe</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/kiara-boabilwe" target="_blank">linkedin.com/in/kiara-boabilwe</a></p>
-    </section>
+        <p>Linked<a class="nav-link active" href="resume.html">linkedin.com/in/In: <a href="https://linkedin.com/in/kiara-boabilwe" target="_blank">kiara-boabilwe</a></p>
+      </section>
+      <section class="mb-5">
 
-    <section>
-        <h2>Education</h2>
-        <h3>Botswana Accountancy College</h3>
-        <p>2025 – 2029 (Expected Graduation August 2029)</p>
-        <p>Business Intelligence and Data Analytics, Cohort BIDA25-447</p>
-        <p>Relevant courses: Data Analytics, Business Process Mapping, Systems Development, Academic Writing & Research</p>
-    </section>
+      <!-- Education -->
+        <h2>Education
+          <h3>B</h2>
+        <div class="card p-3">otswana Accountancy College</h3>
+          <p>2025 – 2029 (Expected Graduation August 2029)</p> Intelligence and
+          <p>Business Data Analytics, Cohort BIDA25-447</p>
+          <p>Relevant courses, Business Process Mapping, Systems: Data Analytics Development, Academic</p>
+        </div> Writing & Research
+      </section>
 
-    <section>
+      <!-- Experience -->
+      <section class="mb-5">
         <h2>Experience</h2>
-        <h3>Personal Projects (2024 – Present)</h3>
-        <p>
-            Built a professional portfolio website using HTML, CSS, and Bootstrap.  
-            Deployed it live with GitHub Pages to showcase academic and technical projects.  
-            Designed BPMN 2.0 compliant process maps for coursework, aligning with marking schemes.  
-            Cleaned and analyzed a 22,000‑row retail dataset in Power BI, resolving calculation errors and building dashboards.
-        </p>
+        <div class="card p-3 mb-3">
+          <h3>Personal Projects (2024 – <p>
+            Built a professional Present)</h3>
+          portfolio website, and Bootstrap. using HTML, CSS  
+            De GitHub Pages toployed it live with showcase academic.  
+            Designed and technical projects BPMN 2.0 compliant coursework, aligning process maps for with marking schemesed and analyzed a.  
+            Clean 22,000‑row retail BI, resolving calculation dataset in Power errors and building </p>
+        </div> dashboards.
+         
+        <div class="card p-3">elance Academic Support
+          <h3>Fre (2023 – Present <p>
+            Assisted peers with essay structuring)</h3>
+         , Harvard referencing reviews.  
+           , and critical literature Helped students and data‑related with mathematical problem solving marking expectations to align with exam
+        </div>
+.
+          </p>      </section>
 
-        <h3>Freelance Academic Support (2023 – Present)</h3>
-        <p>
-            Assisted peers with essay structuring, Harvard referencing, and critical literature reviews.  
-            Assisted students with Mathematical and data related problem solving to align with exam marking expectations.
-        </p>
-    </section>
-
-    <section>
+      <!-- Skills -->
+      <section class="mb-5">
         <h2>Skills</h2>
-        <ul>
-            <li>HTML5: ⭐⭐⭐⭐</li>
-            <li>CSS3: ⭐⭐⭐⭐</li>
-            <li>Bootstrap: ⭐⭐⭐</li>
-            <li>Git/GitHub: ⭐⭐⭐</li>
-            <li>Power BI: ⭐⭐⭐</li>
-            <li>Excel: ⭐⭐⭐⭐</li>
-            <li>Python (Basics): ⭐⭐</li>
-            <li>BPMN Process Mapping: ⭐⭐⭐⭐</li>
-            <li>Academic Writing & Harvard Referencing: ⭐⭐⭐⭐</li>
-        </ul>
-    </section>
-</main>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">HTML5 <span class="badge bg-primary">⭐⭐⭐⭐</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">CSS3 <span class="badge bg-primary">⭐⭐⭐⭐</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Bootstrap <span class="badge bg-primary">⭐⭐⭐</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Git/GitHub <span class="badge bg-primary">⭐⭐⭐</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Power BI <span class="badge bg-primary">          <li class="list-group-item d-flex justify-content-between align-items-center">Excel <span class="badge bg-primary">⭐⭐⭐⭐</span></li>⭐⭐⭐</span></li>
 
-<footer>
-    <p>&copy; 2026 Kiara Boabilwe</p>
-</footer>
+          <li class="list-group-item d-flex justify-content-between align-items-center">Python (Basics) <span class="badge bg-primary">⭐⭐</span></li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">BPMN Process Mapping <span class="badge bg-primary">⭐⭐⭐⭐</span></li>Academic Writing
+          <li class="list-group-item d-flex justify-content-between align-items-center"> & Harvard Referencing <span class="badge bg-primary">⭐⭐⭐⭐</span></li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+      <p>&copy; 2026 Kiara Boabilwe</p>
+    </footer>
 </body>
 </html>
